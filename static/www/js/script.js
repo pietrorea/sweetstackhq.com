@@ -7,7 +7,7 @@ function submitContactForm(e) {
     e.preventDefault();
 
     //const postURL = "http://localhost:9090/api/v1/contact";
-    const postURL = `${window.location.href}api/v1/contact`;
+    const postURL = `${window.location.href}site/api/v1/contact`;
 
     //TODO - add validation for email
     const email = valueForId("email");

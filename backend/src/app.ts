@@ -30,15 +30,15 @@ if (process.env.NODE_ENV !== "production" && process.env.CORS) {
 
 // Endpoints
 
-app.get("/api/v1/health", (req, res) => {
+app.get("/site/api/v1/health", (req, res) => {
   res.send({ message: "OK" });
 });
 
-app.get('/api/v1/sentry-debug', (req, res) => {
+app.get('/site/api/v1/sentry-debug', (req, res) => {
   throw new Error("Test error. Sentry verification.");
 });
 
-app.post("/api/v1/contact", (req, res) => {
+app.post("/site/api/v1/contact", (req, res) => {
   const data = req.body;
   sendMarketingEmail(data, function(err: { stack: any; }, data: any) {
     if (err) {
