@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "lib": ["esnext"],
+      "target": "es2020",
+      "module": "commonjs",
+      "outDir": "out-tsc",
+      "rootDir": "./",
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "types": ["node", "mocha"]
+    },
+    "include": ["src"],
+    "exclude": [
+      "node_modules",
+      "test/**/*.ts"
+    ]
+  }
