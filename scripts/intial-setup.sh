@@ -248,7 +248,7 @@ server {
 
   # Static files (all purpose)
 	location ~ ^/(images/|static/|apple-app-site-association) {
-		root /home/sweetstacker/sweetstack-server/static;
+		root /home/sweetstacker/sweetstackhq.com/static;
     location ~ "^/static/" {
       default_type application/json;
     }
@@ -258,21 +258,27 @@ server {
     }
 	}
 
+  # Marketing site API
+  location ~* ^/(site/api/) {
+    proxy_pass http://127.0.0.1:9091;
+  }
+
+
   # Node API & SPAs
   location ~* ^/(api/|auth/|dashboard/|app/|dist/) {
-    proxy_pass http://127.0.0.1:9091;
+    proxy_pass http://127.0.0.1:9092;
   }
 
   # Marketing website
   location / {
-    root /home/sweetstacker/sweetstack-server/static/www;
+    root /home/sweetstacker/sweetstackhq.com/static/www;
     index index.html;
     error_page 404 /;
 	}
 
   # Static files associated with marketing website
   location ~* \.(js|jpg|png|css|svg|otf)$ {
-    root /home/sweetstacker/sweetstack-server/static/www;
+    root /home/sweetstacker/sweetstackhq.com/static/www;
     try_files $uri =404;
   }
 }
