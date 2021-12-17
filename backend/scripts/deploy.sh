@@ -5,6 +5,8 @@
 
 set -e 
 
+FOREVER_NAME=marketing-service
+
 echo "Pulling from GitHub"
 git pull
 
@@ -15,9 +17,7 @@ echo "Cleaning and building"
 npm run build
 
 echo "Stopping forever process"
-forever stop out-tsc/src/index.js
+forever stop "${FOREVER_NAME}" || true
 
 echo "Starting with forever"
-forever start --minUptime 1000 --spinSleepTime 1000 out-tsc/src/index.js
-
-
+forever start --minUptime 1000 --spinSleepTime 1000 --uid "${FOREVER_NAME}"  out-tsc/src/index.js
