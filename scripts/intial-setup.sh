@@ -241,10 +241,8 @@ server {
   ssl_certificate_key /etc/letsencrypt/live/sweetstackhq.com/privkey.pem;
 	ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 	
-  include /etc/letsencrypt/options-ssl-nginx.conf; 	
-
-  # Redirects
-  rewrite ^/menu$ /auth/guest permanent;
+  include /etc/letsencrypt/options-ssl-nginx.conf;
+  include /home/sweetstacker/sweetstack/.nginx.conf
 
   # Static files (all purpose)
 	location ~ ^/(images/|static/|apple-app-site-association) {
@@ -261,12 +259,6 @@ server {
   # Marketing site API
   location ~* ^/(site/api/) {
     proxy_pass http://127.0.0.1:9091;
-  }
-
-
-  # Node API & SPAs
-  location ~* ^/(api/|auth/|dashboard/|app/|dist/) {
-    proxy_pass http://127.0.0.1:9092;
   }
 
   # Marketing website
