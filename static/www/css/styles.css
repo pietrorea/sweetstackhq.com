@@ -268,40 +268,6 @@ section {
         padding-top: 0;
     }
 }
-/* SECTION - GO BEYOND PDF MENUS */
-
-.section-go-beyond {
-    background-color: #fff;
-    color: rgba(0, 0, 0, 0.68)
-}
-
-.section-go-beyond h2 {
-    margin-bottom: 30px;
-}
-
-.feature-box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1400px;
-}
-
-.feature-box {
-    margin: 5px;
-    margin-bottom: 1rem;
-    max-width: 320px;
-    text-align: center;
-}
-
-.feature-box h4 {
-    margin: 9px;
-}
-
-.feature-box img {
-    display: block;
-    margin: 0 auto;
-}
 
 /* SECTION - GUESTS WILL LOVE DIGITAL MENUS */
 
@@ -400,6 +366,41 @@ section {
 
 .benefit-box p {
     margin-bottom: 1.125rem;
+}
+
+/* SECTION - GO BEYOND PDF MENUS */
+
+.section-go-beyond {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.68)
+}
+
+.section-go-beyond h2 {
+  margin-bottom: 30px;
+}
+
+.feature-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.feature-box {
+  margin: 5px;
+  margin-bottom: 1rem;
+  max-width: 320px;
+  text-align: center;
+}
+
+.feature-box h4 {
+  margin: 9px;
+}
+
+.feature-box img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* SECTION - INTEREST FORM */
