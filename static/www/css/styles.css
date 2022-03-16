@@ -227,14 +227,14 @@ section {
   }
 }
 
-/* SECTION - HOW DOES IT WORK */
+/* SECTION - STEPS (HOW DOES IT WORK) */
 
-.section-how-does-it-work {
+.section-steps {
   background-color: #20324C;
   color: #20324C;
 }
 
-.section-how-does-it-work h2 {
+.section-steps h2 {
   margin-bottom: 1rem;
   color: #fff;
 }
@@ -272,9 +272,9 @@ section {
   }
 }
 
-/* SECTION - GUESTS WILL LOVE DIGITAL MENUS */
+/* SECTION - BENEFITS (GUESTS WILL LOVE) */
 
-.section-guests-will-love {
+.section-benefits {
   background-color: #fff;
 }
 
@@ -371,14 +371,14 @@ section {
   margin-bottom: 1.125rem;
 }
 
-/* SECTION - GO BEYOND PDF MENUS */
+/* SECTION - FEATURES (OUR GO BEYOND PDF MENUS */
 
-.section-go-beyond {
+.section-features {
   background-color: #F3EFEB;
   color: rgba(0, 0, 0, 0.68)
 }
 
-.section-go-beyond h2 {
+.section-features h2 {
   margin-bottom: 30px;
 }
 
