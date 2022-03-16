@@ -16,99 +16,100 @@
 
 
 @font-face {
-    font-family: "Apercu Pro Bold";
-    src: url("../fonts/Apercu Pro Bold.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Apercu Pro Bold";
+  src: url("../fonts/Apercu Pro Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Apercu Pro Medium";
-    src: url("../fonts/Apercu Pro Medium.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Apercu Pro Medium";
+  src: url("../fonts/Apercu Pro Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Apercu Pro Regular";
-    src: url("../fonts/Apercu Pro Regular.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Apercu Pro Regular";
+  src: url("../fonts/Apercu Pro Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Apercu Pro Light";
-    src: url("../fonts/Apercu Pro Light.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Apercu Pro Light";
+  src: url("../fonts/Apercu Pro Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* TOP LEVEL TAGS */
 
 body {
-    margin: 0 0;
-    font-weight: normal;
-    font-style: normal;
+  margin: 0 0;
+  font-weight: normal;
+  font-style: normal;
 }
 
 h1 {
-    font-size: 2.25rem;
-    font-family: "Apercu Pro Medium";    font-weight: normal;
-    font-style: normal;
-    color: #20324C;
+  font-size: 2.25rem;
+  font-family: "Apercu Pro Medium";    
+  font-weight: normal;
+  font-style: normal;
+  color: #20324C;
 
-    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
-    padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
+  margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+  padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
 }
 
 h2 {
-    font-size: 2.25rem;
-    color: #000;
-    text-align: center;
-    font-family: "Apercu Pro Medium";
-    font-weight: normal;
-    font-style: normal;
+  font-size: 2.25rem;
+  color: #000;
+  text-align: center;
+  font-family: "Apercu Pro Medium";
+  font-weight: normal;
+  font-style: normal;
 
-    margin-top: 2.25rem;
+  margin-top: 2.25rem;
 
-    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
-    padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
+  margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+  padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-family: "Apercu Pro Medium";
-    font-weight: normal;
-    font-style: normal;
-    color: #20324C;
+  font-size: 1.5rem;
+  font-family: "Apercu Pro Medium";
+  font-weight: normal;
+  font-style: normal;
+  color: #20324C;
 
-    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
-    padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
+  margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+  padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-family: "Apercu Pro Medium";
-    font-weight: normal;
-    font-style: normal;
-    color: #000;
+  font-size: 1.5rem;
+  font-family: "Apercu Pro Medium";
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
 
-    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
-    padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
+  margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+  padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
 }
 
 p, ul {
-    font-size: 1.125rem;
-    font-family: "Apercu Pro Light";
-    font-weight: normal;
-    font-style: normal;
+  font-size: 1.125rem;
+  font-family: "Apercu Pro Light";
+  font-weight: normal;
+  font-style: normal;
 
-    margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
-    padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
+  margin-block-start:0; margin-block-end:0; margin-inline-start:0; margin-inline-end:0;
+  padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0;
 }
 
 section {
-    padding: 2.25rem 2.75rem;
+  padding: 2.25rem 2.75rem;
 }
 
 /* HOMEPAGE */
@@ -116,433 +117,436 @@ section {
 /* SECTION - HEADER */
 
 .section-header {
-    background-color: #fff;
-    padding-top: 0;
-    padding-bottom: 0;
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .header-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .header-container h1 {
-    margin-bottom: 1.3125rem;
+  margin-bottom: 1.3125rem;
 }
 
 .header-container .cta-button {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .header-heading-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    max-width: 450px;
-    margin-right: 2rem;
+  max-width: 450px;
+  margin-right: 2rem;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .logo-image {
-    width: 31px;
-    height: 23px;
+  width: 31px;
+  height: 23px;
 }
 
 .logo-text {
-    font-size: 1.5rem;
-    font-family: "Apercu Pro Medium";
-    font-weight: normal;
-    font-style: normal; 
-    color: #20324C;
+  font-size: 1.5rem;
+  font-family: "Apercu Pro Medium";
+  font-weight: normal;
+  font-style: normal; 
+  color: #20324C;
 
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .one-liner {
-    font-size: 1.125rem;
-    font-family: "Apercu Pro Regular";
-    font-weight: normal;
-    font-style: normal; 
-    color: #20324C;
+  font-size: 1.125rem;
+  font-family: "Apercu Pro Regular";
+  font-weight: normal;
+  font-style: normal; 
+  color: #20324C;
 }
 
 .cta-button {
-    font-family: "Apercu Pro Medium";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1.125rem;
+  font-family: "Apercu Pro Medium";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.125rem;
 
-    background-color: #E85A36;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    padding: 18px 31px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
+  background-color: #E85A36;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 18px 31px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .demo-image {
-    width: 300px;
-    height: 374px;
+  width: 300px;
+  height: 374px;
 
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 43rem) {
-    section {
-        padding-right: 1.125rem;
-        padding-left: 1.125rem;
-    }
+  section {
+      padding-right: 1.125rem;
+      padding-left: 1.125rem;
+  }
 
-    .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .header-container {
+      flex-direction: column;
+      align-items: center;
+  }
 
-    .logo {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1.5rem;
-    }
+  .logo {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1.5rem;
+  }
 
-    .header-heading-container {
-        text-align: center;
-        margin-right: 0;
-    }
+  .header-heading-container {
+      text-align: center;
+      margin-right: 0;
+  }
 
-    .header-container .cta-button {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 1rem;
-    }
+  .header-container .cta-button {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+  }
 }
 
-/* SECTION - HOW DOES IT WORK */
+/* SECTION - STEPS (HOW DOES IT WORK) */
 
-.section-how-does-it-work {
-    background-color: #20324C;
-    color: #20324C;
+.section-steps {
+  background-color: #20324C;
+  color: #20324C;
 }
 
-.section-how-does-it-work h2 {
-    margin-bottom: 1rem;
-    color: #fff;
+.section-steps h2 {
+  margin-bottom: 1rem;
+  color: #fff;
 }
 
 .step-box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .step-box {
-    background: #F3EFEB;
-    border-radius: 17px;
-    box-sizing: border-box;
-    max-width: 300px;
-    margin: 11px;
-    padding: 19px 27px 45px 27px;
+  background: #F3EFEB;
+  border-radius: 17px;
+  box-sizing: border-box;
+  max-width: 300px;
+  margin: 11px;
+  padding: 19px 27px 45px 27px;
 }
 
 .step-box h3 {
-    text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .step-box img {
-    display: block;
-    margin: 10px auto;
+  display: block;
+  margin: 10px auto;
 }
 
 @media (max-width: 43rem) {
-    .step-box {
-        padding: 1.5rem;
-        padding-top: 0;
-    }
-}
-/* SECTION - GO BEYOND PDF MENUS */
-
-.section-go-beyond {
-    background-color: #fff;
-    color: rgba(0, 0, 0, 0.68)
+  .step-box {
+      padding: 1.5rem;
+      padding-top: 0;
+  }
 }
 
-.section-go-beyond h2 {
-    margin-bottom: 30px;
-}
+/* SECTION - BENEFITS (GUESTS WILL LOVE) */
 
-.feature-box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1400px;
-}
-
-.feature-box {
-    margin: 5px;
-    margin-bottom: 1rem;
-    max-width: 320px;
-    text-align: center;
-}
-
-.feature-box h4 {
-    margin: 9px;
-}
-
-.feature-box img {
-    display: block;
-    margin: 0 auto;
-}
-
-/* SECTION - GUESTS WILL LOVE DIGITAL MENUS */
-
-.section-guests-will-love {
-    background-color: #F3EFEB;
+.section-benefits {
+  background-color: #fff;
 }
 
 .benefit-container {
-    max-width: 1020px;
-    margin: 0 auto;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 .benefit-box-row-left-aligned {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 8rem;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 8rem;
 }
 
 .benefit-box-row-right-aligned {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 8rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 8rem;
 }
 
 .benefit-box {
-    background-color: rgba(32, 50, 76, 0.98);
-    box-sizing: border-box;
-    color: #fff;
-    max-width: 380px;
-    padding: 2.25rem;
+  background-color: rgba(32, 50, 76, 0.98);
+  box-sizing: border-box;
+  color: #fff;
+  max-width: 380px;
+  padding: 2.25rem;
 }
 
 .benefit-box-offset-1 {
-    margin-top: -4rem;
-    margin-left: -4rem;
+  margin-top: -4rem;
+  margin-left: -4rem;
 }
 
 .benefit-box-offset-2 {
-    margin-top: -4rem;
-    margin-right: -4rem;
+  margin-top: -4rem;
+  margin-right: -4rem;
 }
 
 .benefit-box-image {
-    max-width: 540px;
+  max-width: 540px;
 }
 
 /* Mobile format of - "Guests will love it" section. */
 
 @media (max-width: 928px) {
-    .benefit-container {
-        max-width: 540px;
-    }
+  .benefit-container {
+    max-width: 540px;
+  }
 
-    .benefit-box-row-left-aligned {
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-        align-items: center;
-        margin-top: 2rem;
-    }
+  .benefit-box-row-left-aligned {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin-top: 2rem;
+  }
 
-    .benefit-box-row-right-aligned {
-        display: flex;
-        flex-direction: column;
-        justify-content: stretch;
-        align-items: center;
-        margin-top: 2rem;
-    }
+  .benefit-box-row-right-aligned {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin-top: 2rem;
+  }
 
-    .benefit-box {
-        max-width: none;
-        padding: 1.725rem;
-    }
+  .benefit-box {
+    max-width: none;
+    padding: 1.725rem;
+  }
 
-    .benefit-box-image {
-        max-width: 100%;
-    }
+  .benefit-box-image {
+    max-width: 100%;
+  }
 
-    .benefit-box-offset-1 {
-        margin-top: 0;
-        margin-left: 0;
-    }
+  .benefit-box-offset-1 {
+    margin-top: 0;
+    margin-left: 0;
+  }
 
-    .benefit-box-offset-2 {
-        margin-top: 0;
-        margin-right: 0;
-    }
+  .benefit-box-offset-2 {
+    margin-top: 0;
+    margin-right: 0;
+  }
 }
 
 .benefit-box h4 {
-    color: #fff;
-    margin-bottom: 1.125rem;
+  color: #fff;
+  margin-bottom: 1.125rem;
 }
 
 .benefit-box p {
-    margin-bottom: 1.125rem;
+  margin-bottom: 1.125rem;
+}
+
+/* SECTION - FEATURES (OUR GO BEYOND PDF MENUS */
+
+.section-features {
+  background-color: #F3EFEB;
+  color: rgba(0, 0, 0, 0.68)
+}
+
+.section-features h2 {
+  margin-bottom: 30px;
+}
+
+.feature-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.feature-box {
+  margin: 5px;
+  margin-bottom: 1rem;
+  max-width: 320px;
+  text-align: center;
+}
+
+.feature-box h4 {
+  margin: 9px;
+}
+
+.feature-box img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* SECTION - INTEREST FORM */
 
 .section-contact-form h2 {
-    margin-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .section-contact-form p {
-    margin-bottom: 1.125rem;
+  margin-bottom: 1.125rem;
 }
 
 .contact-form-container {
-    margin: 0 auto;
-    max-width: 622px;
+  margin: 0 auto;
+  max-width: 622px;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form-name-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
 }
 
 .input-text-field {
-    font-size: 1.125rem;
-    font-family: "Apercu Pro Light";
-    font-weight: normal;
-    font-style: normal;
-    color: #000;
+  font-size: 1.125rem;
+  font-family: "Apercu Pro Light";
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
 
-    margin-bottom: 1rem;
-    padding: 1rem 1rem;
-    border: 1px solid rgb(151, 151, 151);
-    border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 0.75rem;
 }
 
 .input-text-field::placeholder {
-    font-size: 1.125rem;
-    font-family: "Apercu Pro Light";
-    font-weight: normal;
-    font-style: normal;
-    color: rgb(151, 151, 151);
+  font-size: 1.125rem;
+  font-family: "Apercu Pro Light";
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(151, 151, 151);
 }
 
 .name-text-field {
-    width: 50%;
+  width: 50%;
 }
 
 .name-text-field:first-child {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .name-text-field:last-child {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 #contact-form-input-container {
-    display: block;
+  display: block;
 }
 
 #contact-form-input-container-success {
-    padding: 8rem 1rem;
-    text-align: center;
-    display: none;
+  padding: 8rem 1rem;
+  text-align: center;
+  display: none;
 }
 
 @media (max-width: 43rem) {
-    .contact-form-container {
-        margin-left: 0.75rem;
-        margin-right: 0.75rem;
-    }
+  .contact-form-container {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
 }
 
 /* SECTION - FOOTER */
 .section-footer {
-    padding-top: 1.375rem;
-    padding-bottom: 1.375rem;
+  padding-top: 1.375rem;
+  padding-bottom: 1.375rem;
 }
 
 .section-footer, .section-footer a {
-    font-family: "Apercu Pro Light";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1rem;
+  font-family: "Apercu Pro Light";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
 
-    background-color: #20324C;
-    color: #fff
+  background-color: #20324C;
+  color: #fff
 }
 
 .section-footer-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-footer a {
-    margin: 0 0.125rem;
+  margin: 0 0.125rem;
 }
 
 /* PRIVACY POLICY PAGE */
 
 .section-policy-header {
-    padding: 0 0;
+  padding: 0 0;
 }
 
 .policy-logo-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .section-policy {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .policy-container {
-    margin: 0 auto;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    max-width: 600px;
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  max-width: 600px;
 }
 
 .policy-logo-container .logo {
-    margin-top: 2rem;
-    margin-bottom: 0;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .policy-container h1 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .policy-container h2, h3 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .policy-container p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .policy-container ul {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
