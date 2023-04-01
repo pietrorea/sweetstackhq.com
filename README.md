@@ -4,7 +4,7 @@ Sweetstack is a restaurant-tech project I worked on in the first half of 2022. I
 
 This repo is the marketing site that I designed, developed and maintained. I put it on GitHub mainly for archival purposes, and also as a reference implementation to others.
 
-Here's [live version] deployed on Netlify(https://6427aaf5955a57367c7a728b--famous-muffin-c530a4.netlify.app/www/index.html).
+Here's [live version](https://6427aaf5955a57367c7a728b--famous-muffin-c530a4.netlify.app/www/index.html) deployed on Netlify.
 
 ## Overview
 
